@@ -1,0 +1,125 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" />
+        <meta
+            name="viewport"
+            content="width=device-width, intitial scale=1.0"
+        />
+        <title>Instagram</title>
+        <link rel="stylesheet" href="insta.css" />
+    </head>
+
+    <body>
+        <div class="content">
+            <div class="samplePhone">
+                <img id="phone" src="images/Phone.png" alt="sample phone" />
+                <div class="ss">
+                    <img id="ss" src="images/screenShot.jpg" alt="screenShot" />
+                </div>
+            </div>
+
+            <div class="boxes">
+                <div class="loginBox">
+                    <img id="logo" src="images/logotran.png" alt="logo" />
+
+                    <div class="forms">
+                        <form method="get" id="details">
+                            <input
+                                type="text"
+                                id="username"
+                                class="inputs"
+                                placeholder="Phone number, username or email"
+                            />
+
+                            <input
+                                type="password"
+                                id="password"
+                                class="inputs"
+                                placeholder="Password"
+                            />
+                        </form>
+
+                        <button
+                            id="login"
+                            type="submit"
+                            form="details"
+                            class="inputs"
+                            value="submit"
+                        >
+                            Log In
+                        </button>
+                    </div>
+
+                    <div class="orclass">
+                        <hr class="orRule" id="hr1" />
+
+                        <div id="or">OR</div>
+                        <!-- kk -->
+                        <hr class="orRule" id="hr2" />
+                    </div>
+
+                    <!-- <div class="inputs" id="facebook"> -->
+                    <!-- <button class="inputs" id="facebook"> -->
+                    <a
+                        href="https://facebook.com"
+                        class="inputs facebook"
+                        id="facebook"
+                    >
+                        <img
+                            src="images/facebook logo.png"
+                            alt="facebook"
+                            id="facebookLogo"
+                        />
+                        <span id="facebookText">Log in with Facebook</span>
+                    </a>
+
+                    <div class="forgot">
+                        <a
+                            href="https://www.instagram.com/accounts/password/reset/"
+                            id="forgot"
+                        >
+                            Forgot password?
+                        </a>
+                    </div>
+
+                    <!-- </button> -->
+                    <!-- </div> -->
+                </div>
+
+                <div class="secondBox loginBox">
+                    <p>
+                        Don't have an account?
+                        <a class=""
+                            href="https://www.instagram.com/accounts/emailsignup/"
+                            >Sign up</a
+                        >
+                    </p>
+                </div>
+                
+                <div class="getapp">
+                    <p>
+                        Get the app.
+                    </p>
+                </div>
+                
+                <div>
+                    <button class="downloadButton" id="download1">
+                        <a href="https://apps.apple.com/app/instagram/id389801252">
+                            <img src="images/appStore.png" alt="" class="downloadImage">
+                        </a>
+                    </button>
+                    
+                    <button class="downloadButton" id="download2">
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android">
+                            <img src="images/playStore.png" class="downloadImage">
+                        </a>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+        <img src="images/Phone.png" alt="" id="extraImage"/>
+        <script src="insta.js"></script>
+    </body>
+</html>
