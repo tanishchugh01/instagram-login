@@ -6,6 +6,7 @@
             name="viewport"
             content="width=device-width, intitial scale=1.0"
         />
+
         <title>Instagram</title>
         <link rel="stylesheet" href="insta.css" />
     </head>
@@ -55,12 +56,10 @@
                         <hr class="orRule" id="hr1" />
 
                         <div id="or">OR</div>
-                        <!-- kk -->
+
                         <hr class="orRule" id="hr2" />
                     </div>
 
-                    <!-- <div class="inputs" id="facebook"> -->
-                    <!-- <button class="inputs" id="facebook"> -->
                     <a
                         href="https://facebook.com"
                         class="inputs facebook"
@@ -71,7 +70,9 @@
                             alt="facebook"
                             id="facebookLogo"
                         />
-                        <span id="facebookText">Log in with Facebook</span>
+                        <span id="facebookText"
+                            ><b>Log in with Facebook</b></span
+                        >
                     </a>
 
                     <div class="forgot">
@@ -82,44 +83,53 @@
                             Forgot password?
                         </a>
                     </div>
-
-                    <!-- </button> -->
-                    <!-- </div> -->
                 </div>
 
                 <div class="secondBox loginBox">
                     <p>
                         Don't have an account?
-                        <a class=""
+                        <a
+                            class="signup"
                             href="https://www.instagram.com/accounts/emailsignup/"
-                            >Sign up</a
                         >
+                            Sign up
+                        </a>
                     </p>
                 </div>
-                
+
                 <div class="getapp">
-                    <p>
-                        Get the app.
-                    </p>
+                    <p id="noAccount">Get the app.</p>
                 </div>
-                
+
                 <div>
                     <button class="downloadButton" id="download1">
-                        <a href="https://apps.apple.com/app/instagram/id389801252">
-                            <img src="images/appStore.png" alt="" class="downloadImage">
+                        <a
+                            href="https://apps.apple.com/app/instagram/id389801252"
+                        >
+                            <img
+                                src="images/appStore.png"
+                                alt=""
+                                class="downloadImage"
+                            />
                         </a>
                     </button>
-                    
+
                     <button class="downloadButton" id="download2">
-                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android">
-                            <img src="images/playStore.png" class="downloadImage">
+                        <a
+                            href="https://play.google.com/store/apps/details?id=com.instagram.android"
+                        >
+                            <img
+                                src="images/playStore.png"
+                                class="downloadImage"
+                            />
                         </a>
                     </button>
                 </div>
-                
             </div>
         </div>
-        <img src="images/Phone.png" alt="" id="extraImage"/>
+
+        <img src="images/Phone.png" alt="" id="extraImage" />
+
         <script src="insta.js"></script>
     </body>
 </html>

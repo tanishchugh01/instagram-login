@@ -126,9 +126,10 @@
 #facebookLogo
 {
     margin-left: 70px;
-    padding-right: 7px;
+    /* padding-right: 7px; */
     /* padding-right: 5px; */
     padding-top: 20px;
+    margin-top: 12px;
     height: 15px;
 }
 
@@ -136,7 +137,7 @@
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    color: rgb(78, 30, 167);
+    color:#385185;
     text-align: center;
     padding-right: 50px;
     height: 50px;
@@ -146,13 +147,13 @@
 {
     text-align: center;
     margin-top: 20px;
-    margin-top: 30px;
 }
 
 #forgot
 {
-    font-size: 13px;
+    font-size: 12px;
     color: black;
+    opacity: 80%;
     text-decoration: none;
 }
 
@@ -166,10 +167,25 @@
     padding-top: 8px;
 }
 
+
+.loginBox
+{
+    font-size: 13px;
+}
+
+.signup
+{
+    text-decoration: none;
+    color: rgb(53, 110, 216);
+    font-weight: bold;
+}
+
 .getapp
 {
+    font-size: 13px;
     text-align: center;
     padding-top: 10px;
+    margin-bottom: 5px;
 }
 
 .downloadImage
