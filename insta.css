@@ -3,6 +3,30 @@
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+img {
+    /* pointer-events: none; */
+    user-select: none;
+}
+
+.watermark
+{
+    user-select: none;
+    z-index: 1;
+    position: absolute;
+    /* padding-left: 50px; */
+    /* text-align: center; */
+    /* width: 100%; */
+    font-size: 100px;
+    opacity: 30%;
+    top:30%;
+}
+
+.watermark a
+{
+    text-decoration: none;
+    color: black;
+}
+
 .ss {
     position: absolute;
     left: 151px;
@@ -25,6 +49,16 @@
     padding-top: 30px;
     padding-left: 75px;
     height: 60px;
+    /* position: relative; */
+}
+
+#not {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding-top: 35px;
+    padding-left: 10px;
+    height: 30px;
 }
 
 .loginBox {
@@ -42,14 +76,13 @@
     height: 37px;
 
     margin-left: 40px;
-    border:solid rgb(212, 212, 212);
+    border: solid rgb(212, 212, 212);
     border-width: 1px;
     border-radius: 3px;
     padding-left: 10px;
 }
 
-.inputs:focus
-{
+.inputs:focus {
     outline: none;
 }
 
@@ -70,8 +103,7 @@
     font-weight: 600;
 }
 
-#loginLink
-{
+#loginLink {
     text-decoration: none;
     color: white;
 }
