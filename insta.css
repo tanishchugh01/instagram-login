@@ -21,11 +21,11 @@ img {
     top:30%;
 } */ 
 
-.watermark a
+/* .watermark a
 {
     text-decoration: none;
     color: black;
-}
+} */
 
 .ss {
     position: absolute;
@@ -96,7 +96,7 @@ img {
 
 #login {
     height: 30px;
-    background-color: #0095f6;
+    background-color: #B2DFFC;
     border-radius: 6px;
     border-width: 0;
     color: white;

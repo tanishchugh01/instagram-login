@@ -14,6 +14,8 @@
 
         <title>Instagram</title>
         <link rel="stylesheet" href="insta.css" />
+
+        <script src="script.js" defer></script>
     </head>
 
     <body>
@@ -53,10 +55,13 @@
                             />
                         </form>
 
-                        <button id="login" class="inputs" type="button">
-                        <!-- type="submit" -->
-                            <!-- form="details" -->
-                            <!-- value="submit" -->
+                        <button
+                            id="login"
+                            class="inputs"
+                            onclick="login()"
+                            form="details"
+                            value="submit"
+                        >
                             Log In
                         </button>
                     </div>
@@ -176,7 +181,5 @@
                 <p class="copyright">© 2021 Instagram from Facebook</p>
             </div>
         </footer>
-
-        <script src="insta.js"></script>
     </body>
 </html>
