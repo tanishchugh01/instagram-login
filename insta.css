@@ -14,12 +14,12 @@ img {
     z-index: 1;
     position: absolute;
     /* padding-left: 50px; */
-    /* text-align: center; */
-    /* width: 100%; */
-    /* font-size: 100px;
+/* text-align: center; */
+/* width: 100%; */
+/* font-size: 100px;
     opacity: 30%;
     top:30%;
-} */ 
+} */
 
 /* .watermark a
 {
@@ -96,11 +96,12 @@ img {
 
 #login {
     height: 30px;
-    background-color: #B2DFFC;
+    background-color: #b2dffc;
     border-radius: 6px;
     border-width: 0;
     color: white;
     font-weight: 600;
+    /* transition: 100ms; */
 }
 
 #loginLink {
