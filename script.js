@@ -48,11 +48,13 @@ const submitButton = document.getElementById("login");
 function loginOn() {
     submitButton.style.backgroundColor = "#0095f6";
     submitButton.disabled = false;
+    submitButton.style.cursor = "pointer";
 }
 
 function loginOff() {
     submitButton.style.backgroundColor = "#B2DFFC";
     submitButton.disabled = true;
+    submitButton.style.cursor = "";
 }
 
 //color
