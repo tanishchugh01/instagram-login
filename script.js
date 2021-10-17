@@ -57,6 +57,5 @@ function loginOff() {
     submitButton.style.cursor = "";
 }
 
-
 //color
 //button block
