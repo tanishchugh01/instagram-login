@@ -4,7 +4,7 @@
         <meta http-equiv="X-UA-Compatible" />
         <meta
             name="viewport"
-            content="width=device-width, intitial scale=1.0"
+            content="width=device-width, initial-scale=1.0"
         />
         <link
             rel="shortcut icon"
@@ -14,14 +14,11 @@
 
         <title>Instagram</title>
         <link rel="stylesheet" href="insta.css" />
+
+        <script src="script.js" defer></script>
     </head>
 
     <body>
-        <div class="watermark">
-            Insta<br />
-            <a href="https://github.com/tanishchugh01/instagram-login">Clone</a>
-        </div>
-
         <div class="content">
             <div class="samplePhone">
                 <img id="phone" src="images/Phone.png" alt="sample phone" />
@@ -44,19 +41,23 @@
                                 placeholder="Phone number, username or email"
                             />
 
-                            <!-- type="password" -->
+                            <!-- type="text" -->
                             <input
-                                type="text"
+                                type="password"
                                 id="password"
                                 class="inputs"
-                                placeholder="Password(Do not put your real passwords)"
+                                placeholder="Password"
                             />
                         </form>
 
-                        <button id="login" class="inputs" type="button">
-                        <!-- type="submit" -->
-                            <!-- form="details" -->
-                            <!-- value="submit" -->
+                        <button
+                            id="login"
+                            class="inputs"
+                            onclick="login()"
+                            form="details"
+                            value="submit"
+                            disabled
+                        > 
                             Log In
                         </button>
                     </div>
@@ -116,7 +117,7 @@
                         >
                             <img
                                 src="images/appStore.png"
-                                alt=""
+                                alt="App Store"
                                 class="downloadImage"
                             />
                         </a>
@@ -176,7 +177,5 @@
                 <p class="copyright">© 2021 Instagram from Facebook</p>
             </div>
         </footer>
-
-        <script src="insta.js"></script>
     </body>
 </html>

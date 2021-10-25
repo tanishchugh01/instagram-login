@@ -8,25 +8,6 @@ img {
     user-select: none;
 }
 
-.watermark
-{
-    user-select: none;
-    z-index: 1;
-    position: absolute;
-    /* padding-left: 50px; */
-    /* text-align: center; */
-    /* width: 100%; */
-    font-size: 100px;
-    opacity: 30%;
-    top:30%;
-}
-
-.watermark a
-{
-    text-decoration: none;
-    color: black;
-}
-
 .ss {
     position: absolute;
     left: 151px;
@@ -96,11 +77,12 @@ img {
 
 #login {
     height: 30px;
-    background-color: #0095f6;
+    background-color: #b2dffc;
     border-radius: 6px;
     border-width: 0;
     color: white;
     font-weight: 600;
+    /* transition: 100ms; */
 }
 
 #loginLink {
