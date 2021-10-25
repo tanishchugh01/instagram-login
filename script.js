@@ -57,5 +57,41 @@ function loginOff() {
     submitButton.style.cursor = "";
 }
 
+let screenshot = document.querySelector("#ss");
+let index = 0;
+
+let sslist = [
+    "images/screenshot2.jpg",
+    "images/screenshot3.jpg",
+    "images/screenshot4.jpg",
+    "images/screenshot5.jpg",
+    "images/screenshot.jpg",
+];
+
+function change() {
+    screenshot.src = sslist[index];
+    if (index == 4) {
+        index = 0;
+    } else {
+        index++;
+    }
+
+    setTimeout(change, 5000);
+}
+
+window.onload = change();
+
+// function change() {
+//     // setInterval(function () {
+//         screenshot.src=sslist[index++];
+//     // },1000);
+
+//     if(index>=4)  index=0;
+// }
+
+// window.onload=function () {
+//     setInterval( change(),1000);
+// };
+
 //color
 //button block
